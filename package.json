@@ -20,6 +20,6 @@
     "start": "node app/index.js",
     "server": "node_modules/.bin/nodemon app/index.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""    
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   }
 }
